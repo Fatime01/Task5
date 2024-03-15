@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Merriweather Sans","Arial","Noto Sans";
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+
+header {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Arka planı hafifçe saydamlı olacak şekilde beyaz yapar */
+    display: flex;
+}
+
+.menu {
+    float: left;
+    top: 20px;
+    left: 20px;
+}
+
+nav {
+    float: right;
+}
+
+.list {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
